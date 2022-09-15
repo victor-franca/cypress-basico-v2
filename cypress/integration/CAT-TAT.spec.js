@@ -182,7 +182,7 @@ describe("Central de Atendimento ao Cliente TAT" , function() {
         cy.get("a[href='privacy.html']")
         .invoke("removeAttr","target")
         .click()
-        cy.get("#title").should("have.text","CAC TAT - Política de privacidade")
+        cy.get("#title").should("have.text","CAC TAT - Poltica de privacidade")
     })
 
     
